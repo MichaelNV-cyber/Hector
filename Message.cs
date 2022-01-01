@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace IDFproject
 {
+    public enum actionType
+    {
+        request,
+        response
+    }
+
+    public enum messageType
+    {
+        startComm,
+        endComm,
+        classification
+    }
+
     internal class Message
     {
+        actionType actionType;
+        messageType messageType;
+        string timeSent;
+        
     }
 }
