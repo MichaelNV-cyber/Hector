@@ -8,8 +8,8 @@ namespace IDFproject
 {
     public enum actionType
     {
-        request,
-        response
+       request,
+       response
     }
 
     public enum messageType
@@ -24,6 +24,13 @@ namespace IDFproject
         actionType actionType;
         messageType messageType;
         string timeSent;
+
+        public Message(actionType actionType, messageType messageType, string timeSent)
+        {
+            this.actionType = actionType;   
+            this.messageType = messageType;
+            this.timeSent = timeSent;
+        }
         
     }
 }
