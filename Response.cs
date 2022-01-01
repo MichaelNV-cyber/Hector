@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace IDFproject
 {
-    internal class Response
+    internal class Response :Message
     {
+        bool isApproved;
+
+        public Response(actionType actionType, messageType messageType, string timeSent, bool isApproved) : base(actionType, messageType, timeSent)
+        {
+            this.isApproved = isApproved;
+        }
     }
 }
