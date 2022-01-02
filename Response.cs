@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDFproject
+namespace Hector
 {
     internal class Response :Message
     {

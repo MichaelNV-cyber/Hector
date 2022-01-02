@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michael\\Projects\\IDFproject\\IDFproject.csproj",
-      "projectName": "IDFproject",
-      "projectPath": "C:\\Users\\Michael\\Projects\\IDFproject\\IDFproject.csproj",
+      "projectUniqueName": "C:\\Users\\Michael\\Projects\\Git\\Hector\\Hector.csproj",
+      "projectName": "Hector",
+      "projectPath": "C:\\Users\\Michael\\Projects\\Git\\Hector\\Hector.csproj",
       "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michael\\Projects\\IDFproject\\obj\\",
+      "outputPath": "C:\\Users\\Michael\\Projects\\Git\\Hector\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",

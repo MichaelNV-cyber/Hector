@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michael\\Projects\\Git\\Hector\\IDFproject.csproj": {}
+    "C:\\Users\\Michael\\Projects\\Git\\Hector\\Hector.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michael\\Projects\\Git\\Hector\\IDFproject.csproj": {
+    "C:\\Users\\Michael\\Projects\\Git\\Hector\\Hector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\Projects\\Git\\Hector\\IDFproject.csproj",
-        "projectName": "IDFproject",
-        "projectPath": "C:\\Users\\Michael\\Projects\\Git\\Hector\\IDFproject.csproj",
+        "projectUniqueName": "C:\\Users\\Michael\\Projects\\Git\\Hector\\Hector.csproj",
+        "projectName": "Hector",
+        "projectPath": "C:\\Users\\Michael\\Projects\\Git\\Hector\\Hector.csproj",
         "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Michael\\Projects\\Git\\Hector\\obj\\",
         "projectStyle": "PackageReference",

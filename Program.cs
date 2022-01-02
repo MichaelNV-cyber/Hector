@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace IDFproject
+namespace Hector
 {
     public class Program
     {
