@@ -9,14 +9,16 @@ namespace IDFproject
     public enum actionType
     {
         request,
-        response
+        response,
+        unspecified
     }
 
     public enum messageType
     {
         startComm,
         endComm,
-        classification
+        classification,
+        unspecified
     }
 
     internal class Message
@@ -24,6 +26,11 @@ namespace IDFproject
         actionType actionType;
         messageType messageType;
         string timeSent;
-        
+        public Message(actionType actionType, messageType messageType, string timeSent)
+        {
+            this.actionType = actionType;
+            this.messageType = messageType;
+            this.timeSent = timeSent;
+        }
     }
 }
