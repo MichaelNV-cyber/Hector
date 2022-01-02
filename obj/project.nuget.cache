@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RF4HHq9w80EdmU4h1Kk3DXytIDQjRZVVVTSCzrK4o67LM1u0tajjH29iVvopZrDzOjyJZQCpMOzWe7hFlbD+dw==",
+  "dgSpecHash": "n9QMPuCRw9wELrUbDHdJKhCtttl5G/19ZkzDvJunG8tBK/skv+w4zhy/zkUktMra4tCaoXsf2WrU8MZUUFQSlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Michael\\Projects\\IDFproject\\IDFproject.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Michael\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
