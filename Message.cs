@@ -15,7 +15,7 @@
         unspecified
     }
 
-    internal class Message
+    internal abstract class Message
     {
         actionType actionType;
         messageType messageType;
