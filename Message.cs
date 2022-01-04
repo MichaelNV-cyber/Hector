@@ -17,14 +17,9 @@
 
     internal abstract class Message
     {
-        actionType actionType;
-        messageType messageType;
-        string timeSent;
-        public Message(actionType actionType, messageType messageType, string timeSent)
-        {
-            this.actionType = actionType;
-            this.messageType = messageType;
-            this.timeSent = timeSent;
-        }
+        actionType actionType { get; set; }
+        messageType messageType { get; set; }
+        string timeSent { get; set; }
+
     }
 }
