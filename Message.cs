@@ -1,21 +1,6 @@
 ﻿namespace Hector
 {
-    public enum actionType
-    {
-        request,
-        response,
-        unspecified
-    }
-
-    public enum messageType
-    {
-        startComm,
-        endComm,
-        classification,
-        unspecified
-    }
-
-    internal abstract class Message
+    internal abstract class Message :types
     {
         actionType actionType { get; set; }
         messageType messageType { get; set; }
