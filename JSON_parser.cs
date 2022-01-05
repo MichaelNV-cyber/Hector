@@ -1,5 +1,4 @@
-﻿using Newtonsoft;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 
 
 namespace Hector
@@ -15,6 +14,7 @@ namespace Hector
             Message msg = messageFactory.createMessage(type);
 
             Newtonsoft.Json.JsonConvert.PopulateObject(jsonIn, msg);
+
         }
     }
 }
