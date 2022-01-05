@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft;
+﻿using Newtonsoft;
 using Newtonsoft.Json.Linq;
-
 
 
 namespace Hector
@@ -14,16 +8,13 @@ namespace Hector
     {
         public void JSON_toClass(string jsonIn)
         {
-            JObject toParse = JObject.Parse(jsonIn); 
-            
-            string type = (string)toParse["actionType"];
+            messageFactory messageFactory = new messageFactory();
+            JObject toParse = JObject.Parse(jsonIn);
 
-            
+            string type = (string)toParse["actionType"];
+            Message msg = messageFactory.createMessage(type);
 
             Newtonsoft.Json.JsonConvert.PopulateObject(jsonIn, msg);
-    
-
         }
     }
-} //VAR MSG = JSON.CONVERT(JSONSTRING
-
+}
